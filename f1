@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#display numbers from 1 to 10
+
+#initiate the number 
+n=1
+
+while [ $n -le 10 ]
+do
+n=$(( n+1 )) 
+echo $n
+done
+
+
